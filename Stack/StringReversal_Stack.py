@@ -3,11 +3,12 @@
 stringg = "Hello"
 stack = []
 reverseString = ""
-def pushOps(i):
-    stack.append(i)
+# def pushOps(i):
+#     stack.append(i)
 
 for i in stringg:
-    pushOps(i)
+    # pushOps(i)
+    stack.append(i)
 
 while(len(stack)!=0):
     #  reverseString +=  stack.pop()

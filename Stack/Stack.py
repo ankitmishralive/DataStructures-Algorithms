@@ -23,9 +23,14 @@ stack = create_stack()
 
 pushOps(stack,str(1))
 pushOps(stack,str(2))
+pushOps(stack,str(99))
+pushOps(stack,str(100))
+pushOps(stack,str(9999))
+
 
 print("Your Stack is : ",stack)
 popOps(stack)
 print("Your Stack is : ",stack)
 popOps(stack)
-popOps(stack)
+# popOps(stack)
+print("Your Stack is : ",stack)

@@ -41,11 +41,11 @@ class Queue:
               
         elif inputt == '2':
             self.dequeue()
-            print("After popping out your stack is :")
+            print("After popping out your Queue is :")
             self.display()
 
         elif inputt == '3':
-            print("Your elements in stack are :")
+            print("Your elements in Queue are :")
             self.display()
 
 Q = Queue()
